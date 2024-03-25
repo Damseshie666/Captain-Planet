@@ -1,0 +1,118 @@
+
+
+body{
+    height: 130vh;
+    position: relative;
+    background-image: url(8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar{
+    padding: 0 80px 0 0;
+}
+
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 150px;
+}
+
+.logo a{
+    font-size: 90px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family:cursive;
+    color: #314344;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+li a{
+    color: #F9F6EE;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .1s linear;
+    text-decoration: double;
+}
+
+li a:hover{
+    color: #314344;
+    border-bottom: 3px solid #314344;
+}
+
+li .active{
+    color: #314344;
+    border-bottom: 3px solid #314344;
+}
+
+.container{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 300px;
+    top: 25%;
+    left: 1%;
+}
+
+.slider-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+    color: #314344;
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+    font-family: cursive;
+}
+
+.text{
+    color: #F9F6EE;
+    font-size: 17px;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid #314344;
+    font-size: 18px;
+    width: 180px;
+    height: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: .2s linear;
+}
+
+button:hover{
+    background-color: #314344;
+    color: #000000;
+}
+
+.active2{
+    background-color: #314344;
+}
